@@ -1,22 +1,134 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ulibro Manizales</title>
-       <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PowerFit - Ropa Deportiva</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
+    <h1>💪 PowerFit</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main class="container">
-        <h1>proyectorepoweb</h1>
-        <p>hola, chao</p>
-        
-        <div class="cta-box">
-            <h2>¿Te interesa?</h2>
-            <p>Déjanos tu correo y sé el primero en saber cuándo lancemos.</p>
-            <button>¡Quiero saber más!</button>
-        </div>
-    </main>
+  <section id="inicio" class="hero">
+    <div class="overlay">
+      <h2>Ropa deportiva que se mueve contigo</h2>
+      <p>Comodidad, estilo y rendimiento para tus entrenamientos. 🏃‍♀</p>
+      <a href="#productos" class="btn">Explorar colección</a>
+    </div>
+  </section>
+
+  <section id="nosotros" class="nosotros">
+    <h2>Quiénes somos</h2>
+    <p>
+      En <strong>PowerFit</strong> creemos que el movimiento es poder. Diseñamos ropa deportiva
+      para mujeres y hombres activos, que buscan comodidad sin renunciar al estilo.
+    </p>
+    <p>
+      Nuestros productos están hechos con materiales ecológicos, resistentes y transpirables.
+      Cada prenda está creada para acompañarte en tus metas y ayudarte a dar tu mejor versión
+      dentro y fuera del gimnasio.
+    </p>
+  </section>
+
+  <section id="productos" class="productos">
+    <h2>Nuestra colección</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2021/06/09/12/59/woman-6322404_1280.jpg" alt="Conjunto deportivo mujer">
+        <h3>Conjunto deportivo mujer</h3>
+        <p>Leggins y top ajustado, tela elástica, ideal para yoga o gym.</p>
+        <span class="precio">$120.000</span>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/08/06/14/11/running-2594983_1280.jpg" alt="Camiseta dry-fit hombre">
+        <h3>Camiseta Dry-Fit hombre</h3>
+        <p>Tecnología de secado rápido, perfecta para entrenamientos intensos.</p>
+        <span class="precio">$75.000</span>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/04/25/22/58/shoes-2260832_1280.jpg" alt="Zapatillas deportivas">
+        <h3>Zapatillas deportivas</h3>
+        <p>Suela antideslizante, ligeras y resistentes. Disponible en varios colores.</p>
+        <span class="precio">$220.000</span>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/03/27/13/39/people-2179626_1280.jpg" alt="Chaqueta deportiva unisex">
+        <h3>Chaqueta deportiva unisex</h3>
+        <p>Impermeable, ligera y con capucha ajustable. Ideal para climas fríos.</p>
+        <span class="precio">$160.000</span>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2016/11/18/14/00/sport-1834445_1280.jpg" alt="Pantalón deportivo hombre">
+        <h3>Pantalón deportivo hombre</h3>
+        <p>Con bolsillos y ajuste perfecto. Comodidad garantizada.</p>
+        <span class="precio">$95.000</span>
+        <button class="btn-comprar">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonios" class="reseñas">
+    <h2>Testimonios de nuestros clientes</h2>
+    <div class="opiniones">
+      <div class="opinion">
+        <p>💬 “La tela es increíble, súper cómoda para entrenar y no se transparenta.”</p>
+        <span>– Valentina R.</span>
+      </div>
+      <div class="opinion">
+        <p>💬 “Los leggins son mi nueva obsesión. Me encanta el diseño y cómo se ajustan.”</p>
+        <span>– Sara P.</span>
+      </div>
+      <div class="opinion">
+        <p>💬 “Excelente servicio, la chaqueta llegó rápido y es de muy buena calidad.”</p>
+        <span>– Juan M.</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes dudas o quieres hacer un pedido personalizado? ¡Estamos para ayudarte!</p>
+
+    <form>
+      <input type="text" placeholder="Tu nombre" required>
+      <input type="email" placeholder="Tu correo electrónico" required>
+      <textarea placeholder="Tu mensaje..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+
+    <div class="info">
+      <p>📍 Bogotá, Colombia</p>
+      <p>📧 info@powerfit.com</p>
+      <p>📱 +57 310 987 6543</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 PowerFit — Todos los derechos reservados.</p>
+    <div class="redes">
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">TikTok</a>
+    </div>
+  </footer>
 </body>
 </html>
